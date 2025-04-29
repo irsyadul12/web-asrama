@@ -1,0 +1,48 @@
+.tes{
+    margin: 20px;
+}
+
+.carousel-inner{
+    border-radius: 10px;
+}
+
+.judul{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.tujuan{
+    text-align: center;
+    background-color: #0d6efd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+}
+
+.usaha {
+    color: aliceblue;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #0d6efd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.judultujuan{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #0d6efd;
+}
+
+.judulanggota{
+    margin-top: 30px;
+        margin-bottom: 10px;
+        color: #0d6efd;
+}
+
+html,
+body {
+    height: 100%;
+}

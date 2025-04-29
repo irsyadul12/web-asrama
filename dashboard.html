@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Menambahkan Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title></title>
+    <!-- Java Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;">
+    <div class="tes">
+    <nav class="navbar navbar-dark bg-primary fixed-top">
+        <div class="container-fluid">
+            <!-- Untuk Membuat Navbar -->
+            <a class="navbar-brand" href="#" style="font-weight: bold;">AMPS - KOTABARU</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-primary" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel" style="font-weight: bold;">AMPS - KOTABARU</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <!-- Isi Nav Bar -->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="info-daftar.html">Informasi Pendaftaran</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fasilitas.html">Fasilitas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dokumentasi Kegiatan Asrama
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Olahraga</a></li>
+                                <li><a class="dropdown-item" href="#">Bersih-Bersih</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Kegiatan Lainnya</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Cari -->
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-warning" type="submit">Cari</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <h3 class="judul text-primary">Asrama Mahasiswa Putra Sebatung Kotabaru</h3>
+    <!-- Foto-Foto -->
+    <div class="foto">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="asset/gambar1.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="asset/gambar2.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="asset/gambar3.JPG" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+    <h3 class="judultujuan">Tujuan dan Usaha</h3>
+    <div class="tujuan">
+        <h4>Tujuan</h4>
+        <p>Terwujudnya sumber daya manusia yang unggul dan berakhlakul kharimah. <br>
+        Menaungi, mengkoordinir, dan mengoptimalkan setiap potensi yang dimiliki
+        anggota Asrama dan menciptakan suasana kondusif untuk kehidupan bersama.</p>
+    </div>
+    <div class="usaha">
+        <h4>Usaha</h4>
+        <p>Usaha-usaha yang dilakukan agar tujuan tercapai: <br>
+        1. Mengkoordinir semua kegiatan Asrama yang sudah ditetapkan dalam program
+        kerja <br>
+        2. Mengadakan dan mengikuti kegiatan-kegiatan yang menunjang kemajuan
+        Asrama <br>
+        3. Melengkapi sarana dan prasarana Asrama <br>
+        4. Mengadakan kerja sama dengan pihak lain</p>
+    </div>
+    <!-- Nama Anggota -->
+    <h3 class="judulanggota">Nama Anggota Asrama</h3>
+    <table class="table table-striped">
+        <thead class="bg-primary text-white">
+            <tr>
+                <td class="bg-primary text-white">No</td>
+                <td class="bg-primary text-white">Nama</td>
+                <td class="bg-primary text-white">Jabatan</td>
+                <td class="bg-primary text-white">Universitas</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Irsyadul Ibad</td>
+                <td>Ketua Umum</td>
+                <td>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Atsir Muhammad Atha Aldana</td>
+                <td>Wakil Ketua</td>
+                <td>Universitas Lambung Mangkurat</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>M. Gufran</td>
+                <td>Bendahara</td>
+                <td>Universitas Lambung Mangkurat</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Didi</td>
+                <td>Sekretaris</td>
+                <td>Universitas Lambung Mangkurat</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Ardan Maulana</td>
+                <td>Co Keamanan</td>
+                <td>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Muhammad Hanafi</td>
+                <td>Anggota Divisi Keamanan</td>
+                <td>Universitas Lambung Mangkurat</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Haikal Fha'is</td>
+                <td>Anggota Divisi Keamanan</td>
+                <td>Politeknik Negeri Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ary Hidayat</td>
+                <td>Co Divisi Kebersihan</td>
+                <td>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Syaila Pardilla</td>
+                <td>Anggota Divisi Kebersihan</td>
+                <td>Politeknik Negeri Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Muhammad Saidil</td>
+                <td>Divisi Kebersihan</td>
+                <td>Politeknik Negeri Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Irfandi</td>
+                <td>Anggota Divisi Kebersihan</td>
+                <td>Politeknik Negri Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Muhammad Fajari</td>
+                <td>Co Divisi Keagamaan</td>
+                <td>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Muhammad Alfiandi Ramadhan</td>
+                <td>Anggota Divisi Keagamaan</td>
+                <td>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Ishaq</td>
+                <td>Anggota Divisi Keagamaan</td>
+                <td>Politeknik Negeri Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Muh Fauzan</td>
+                <td>Anggota Divisi Keagamaan</td>
+                <td>Universitas Islam Negeri Antasari Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Ahmad Ariandi</td>
+                <td>Anggota Divisi Keagamaan</td>
+                <td>Politeknik Negeri Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>M. Faidh</td>
+                <td>Co Divisi Olahraga</td>
+                <td>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Andrie</td>
+                <td>Anggota Divisi Olahraga</td>
+                <td>Politeknik Negeri Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Aslan Reynaldi</td>
+                <td>Anggota Divisi Olahraga</td>
+                <td>Universitas Islam Negeri Antasari Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Muhammad Kamarullah</td>
+                <td>Co Divisi Logistik</td>
+                <td>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Muhammad Mufli</td>
+                <td>Anggota Divisi Logistik</td>
+                <td>Universitas Lambung Mangkurat</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Mirsyad Pribadi</td>
+                <td>Anggota Logistik</td>
+                <td>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>Muhammad Alwi</td>
+                <td>Anggato Divisi Logistik</td>
+                <td>Politeknik Negeri Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Muhammad Aril</td>
+                <td>Co Divisi Media Sosial</td>
+                <td>Politeknik Negeri Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Muhammad Fahmi</td>
+                <td>Anggota Divisi Sosial Media</td>
+                <td>Politeknik Negeri Banjarmasin</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Rahmad</td>
+                <td>Anggota Divisi Sosial Media</td>
+                <td>Universitas Lambung Mangkurat</td>
+            </tr>
+            <tr>
+                <td>27</td>
+                <td>Muhammad Noprizal Avif</td>
+                <td>Anggota Divisi Media Sosial</td>
+                <td>Universitas Islam Kalimantan Muhammad Arsyad Al Banjari</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    </div>
+    <footer class="bg-primary text-white text-left pt-3 py-1 ps-2">
+        <p>&copy; 2025 AMPS. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
